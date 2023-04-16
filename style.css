@@ -14,6 +14,10 @@ p {
     color: brown;
 }
 
-.main-div h1{
-    background-color: red;
+
+/*adjacent*/
+
+h1+h2{
+    background-color: orange;
+    color: white;
 }
