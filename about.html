@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact US</title>
+	<style>
+        
+        
+		h1 {
+			color: white;
+			font-size: 45px;
+		}
+		form {
+			max-width: 500px;
+			margin: 0 auto;
+			background-color: white;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px white(0,0,0,0.3);
+		}
+		input[type=text], textarea {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			resize: vertical;
+		}
+		input[type=submit] {
+			background-color: green;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		input[type=submit] {
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+    <img src="image.jpg" alt ="attributes image >
+    <body style="background-color: black;"></body>
+	<h1>Provide Your Information</h1>
+	<p style="color: black"><center>Fill your deatils below</center></p>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Your Good name.." required>
+		
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" placeholder="Your email.." required>
+		
+		<label for="subject">Subject:</label>
+		<input type="text" id="subject" name="subject" placeholder="Subject.." required>
+		
+		<label for="Any Quires">Any thing more:</label>
+		<textarea id="message" name="message" placeholder="Write something.." required></textarea>
+		
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
