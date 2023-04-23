@@ -1,0 +1,49 @@
+.register{
+    margin: auto;
+    background-position: white;
+    max-width: 350px;
+    padding: 10px;
+}
+
+input[type=text]{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid;
+
+}
+body{
+    background-image: url(coventry.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 150%; 
+    ; 
+}
+h1{
+    color: dark black;
+    font-size: 50px;
+}
+p{
+    color:  dark black;
+    font-size: 25px;
+}
+select{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid;
+}
+input[type=submit]{
+   background-color:  lightgreen;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid;
+}
