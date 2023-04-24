@@ -14,14 +14,15 @@ input[type=text]{
     border: 2px solid;
 
 }
+/*
 body{
     background-image: url(coventry.jpg);
     background-position-x: 50%;
     background-position-y: 50%;
     background-repeat: no-repeat;
-    background-size: 100% 150%; 
+    background-size: 150% 200%; 
     ; 
-}
+}*/
 h1{
     color: dark black;
     font-size: 50px;
