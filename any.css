@@ -37,9 +37,9 @@
 }
 
 .animated-text {
-    font-size: 36px;
+    font-size: 70px;
     font-weight: bold;
-    color: #ff0000;
+    color: black;
 }
 
 @keyframes move-right {
@@ -58,7 +58,7 @@
     }
 
     to {
-        background-color: rgba(164, 176, 239, 0.795);
+        background-color: white(164, 176, 239, 0.795);
     }
 }
 

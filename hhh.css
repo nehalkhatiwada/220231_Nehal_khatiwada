@@ -16,11 +16,11 @@ input[type=text]{
 }
 /*
 body{
-    background-image: url(coventry.jpg);
-    background-position-x: 50%;
-    background-position-y: 50%;
+    background-image: url(rolls.png);
+    background-position-x: bottom right;
+    background-position-y: center right;
     background-repeat: no-repeat;
-    background-size: 150% 200%; 
+    background-size: 38% 40%; 
     ; 
 }*/
 h1{
