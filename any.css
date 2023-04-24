@@ -3,7 +3,7 @@
     height: 500px;
     position: relative;
     background-color: aqua;
-    background-color: #fff;
+    background-color: black;
     animation-name: change-bg-color;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -39,7 +39,7 @@
 .animated-text {
     font-size: 70px;
     font-weight: bold;
-    color: black;
+    color: whitesmoke;
 }
 
 @keyframes move-right {
@@ -48,7 +48,7 @@
     }
 
     to {
-        left: 60vw;
+        left: 58vw;
     }
 }
 
