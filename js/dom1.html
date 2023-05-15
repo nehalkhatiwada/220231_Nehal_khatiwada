@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+   <title>Document</title>
+   <script type="text/javascript">
+     function myFunction(){
+        document.getElementById("demo").classList.add("dark-mode");
+     }
+     function myFunction2(){
+        document.getElementById("demo").classList.remove("dark-mode");
+
+     }
+   </script>
+   <style type="text/css">
+    .dark-mode{
+        background: green;
+   }
+   </style>
+   
+</head>
+<body>
+    <div id="demo" style="border: 1px solid black">
+    <h1>This is Title</h1>
+    <p>
+        This is just an example of dom manipulation.
+    </p>
+</div>
+    <div id="demo">Here is the text</div>
+    <button onclick="myFunction2()">light mode</button>
+    <button onclick="myFunction()">Dark mode</button>
+</body>
+</html>
